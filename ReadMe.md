@@ -34,7 +34,6 @@ Verbinden Sie die Abhängigkeiten der einzelnen Projekte untereinander.
 |*double? Average(Func<T, double> transform)*|Liefert den Durchschnittswert der Auflistung.|
 |*IEnumerable&lt;T&gt; ForEach(Action&lt;T&gt; action)*|Führt für jedes Element der Auflistung die 'action' aus.|
 |*IEnumerable&lt;T&gt; ForEach(Action&lt;int, T&gt; action)*|Führt für jedes Element der Auflistung die 'action' aus und liefert zusätzlich den Parameter n-tes Element.|
-|*IEnumerable&lt;T&gt; SortBy(Func<T, TKey> orderBy)*|Sortiert die Auflistung nach orderBy.|
 |*IEnumerable&lt;T&gt; Distinct()*|Bereinigt die Auflistung von Duplikaten.|
  
 **Funktionsumfang für Experten (optional)** Erweitern Sie den Funktionsumfang für alle Sammlungen (IEnumerable&lt;T&gt;) um folgende Operationen:
